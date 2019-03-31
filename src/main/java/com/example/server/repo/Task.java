@@ -8,7 +8,7 @@ import java.util.Objects;
 import java.util.Set;
 
 @Entity
-@Table(schema = "timemanager", name = "task")
+@Table(name = "task")
 public class Task {
 
     @Id

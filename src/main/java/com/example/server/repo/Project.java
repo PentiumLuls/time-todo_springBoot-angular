@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-@Table(schema = "timemanager", name = "project")
+@Table(name = "project")
 public class Project {
     @Id
     @GeneratedValue
