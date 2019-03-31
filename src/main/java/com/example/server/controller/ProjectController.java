@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/projects")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://time-todo-app.herokuapp.com/")
 public class ProjectController {
 
     @Autowired

@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/tasks")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://time-todo-app.herokuapp.com/")
 public class TaskController {
 
     @Autowired
