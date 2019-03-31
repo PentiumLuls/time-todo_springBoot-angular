@@ -30,7 +30,6 @@ public class Task {
 
     @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(
-            schema = "timemanager",
             name = "task_tag",
             joinColumns = @JoinColumn(name = "task_id"),
             inverseJoinColumns = @JoinColumn(name = "tag_id")
